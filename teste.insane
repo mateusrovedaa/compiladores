@@ -1,0 +1,59 @@
+function sum (n, c) int {
+    resultado = n + c
+    return(resultado)
+}
+
+
+console("Sound")
+beep
+
+console("Test variables")
+a = 2
+b = 3
+console (a + 4 + a)
+console (a + b)
+console (b)
+// console (c) // error
+
+console("Test mathematical priority")
+console (1 + 10 / 5)
+
+console("Test if")
+if (b == 3)
+{
+    console("B is equals to 3")
+}
+else
+{
+    console("B is not equals to 3")
+}
+
+b = 5
+if (b == 3)
+{
+    console("B is equals to 3")
+}
+else
+{
+    console("B is not equals to 3")
+}
+
+console("Test while")
+n = 0
+while (n < 5) {
+    console(n)
+    n = n + 1
+}
+console("The final value in loop is ", n)
+
+console("Test function, sum 5 + 2")
+console(sum(5, 2))
+
+console("Test input")
+num = readInt()
+othernum = readInt()
+console("Result sum ", num, " + ", othernum, " = ", sum(num, othernum))
+
+console("\u001B[31mTest color red")
+console("\u001B[0mTest color reset")
+

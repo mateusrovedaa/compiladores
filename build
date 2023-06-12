@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if java -jar antlr-4.5.3.jar Insane.g; then
+    javac -cp antlr-4.5.3.jar Insane*.java
+else
+    rm -f Insane*.java Insane*.class Insane.tokens
+fi
